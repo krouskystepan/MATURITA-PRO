@@ -10,7 +10,6 @@ public class Main {
 
         System.out.print("Zadej nejaky text: ");
         String input = sc.nextLine();
-        // Vypiseme text od uzivatele, (trim ostrihne mezery ze zacatku a konce)
         System.out.println("Dany text je " + input.trim().length() + " znaku dlouhy");
     }
 }
