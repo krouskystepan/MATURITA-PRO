@@ -1,10 +1,9 @@
+import java.util.Scanner;
+
 /*
 Zadani:
 Uživatel zadá číslo do konzole. Program vypíše, zda je číslo menší než 20, mezi 20 a 30, větší než 30.
 */
-
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
