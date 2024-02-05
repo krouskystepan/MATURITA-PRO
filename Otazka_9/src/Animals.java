@@ -1,7 +1,7 @@
 public class Animals {
-    public String name;
-    public int age;
-    public int height;
+    private String name;
+    private int age;
+    private int height;
 
     public void makeSound() {
         System.out.println("Zvuk zvirete");
