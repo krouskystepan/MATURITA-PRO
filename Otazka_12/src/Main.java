@@ -4,6 +4,8 @@ Vytvořte návrhový vzor Factory, která bude vytvářet a vracet objekty od t�
 */
 public class Main {
     public static void main(String[] args) {
-
+        MobileFactory factory = new MobileFactory();
+        OS phone = factory.getPhone("Nokia");
+        phone.type();
     }
 }
