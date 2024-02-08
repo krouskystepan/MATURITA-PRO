@@ -37,7 +37,7 @@ public class DatabaseManager {
     }
 
     public static void setData(String firstName, String lastName, int age) throws SQLException{
-        Connection c = DriverManager.getConnection("jdbc:mysql://localhost:3306/database", "root", "");
+        Connection c = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "");
         /*
         Pokud do příkazu dosazujeme konkrétní data, nedáváme je přímo do prepareStatement, ale nahradíme daná místa otazníky a konkrétní hodnoty dosadíme na dalších řádcích
          */
