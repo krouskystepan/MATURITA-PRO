@@ -1,3 +1,5 @@
+package zkouseni;
+
 public class IPhone implements OS{
     private final String color;
 

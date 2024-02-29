@@ -1,3 +1,5 @@
+package zkouseni;
+
 public class MobileFactory {
     public OS getPhone(String str, String c) {
         switch (str) {

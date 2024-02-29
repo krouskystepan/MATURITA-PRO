@@ -1,3 +1,5 @@
+package zkouseni;
+
 public class Samsung implements OS{
     private final String color;
 

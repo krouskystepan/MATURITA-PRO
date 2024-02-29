@@ -1,3 +1,5 @@
+package zkouseni;
+
 public class Nokia implements OS{
     private final String color;
 
